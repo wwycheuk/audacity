@@ -443,14 +443,12 @@ msgid "Nyquist plug-ins"
 msgstr "Nyquist 外掛程式"
 
 #: src/AboutDialog.cpp
-#, fuzzy
 msgid "web developer"
-msgstr "開發者"
+msgstr "網頁開發者"
 
 #: src/AboutDialog.cpp
-#, fuzzy
 msgid "graphics"
-msgstr "圖形(&G)"
+msgstr "圖形"
 
 #: src/AboutDialog.cpp
 msgid "incorporating"
@@ -561,12 +559,11 @@ msgid "Audacity website: "
 msgstr "Audacity 網站"
 
 #: src/AboutDialog.cpp
-#, fuzzy
 msgid ""
 "<p><br>&nbsp; &nbsp; <b>Audacity<sup>&reg;</sup></b> software is copyright "
 "&copy; 1999-2018 Audacity Team.<br>"
 msgstr ""
-"<p><br>&nbsp; &nbsp; <b>Audacity<sup>&reg;</sup></b> 軟體，&copy; 1999-2017 "
+"<p><br>&nbsp; &nbsp; <b>Audacity<sup>&reg;</sup></b> 軟體，&copy; 1999-2018 "
 "Audacity 團隊，版權所有。<br>"
 
 #: src/AboutDialog.cpp
@@ -718,9 +715,8 @@ msgid "Click and drag to adjust, double-click to reset"
 msgstr "點選並拖動以調整立體聲軌道的相對大小。"
 
 #: src/AdornedRulerPanel.cpp
-#, fuzzy
 msgid "Record/Play head"
-msgstr "固定錄音/播放頭(&P)"
+msgstr "錄音/播放頭"
 
 #: src/AdornedRulerPanel.cpp
 msgid "Timeline"
@@ -1075,9 +1071,9 @@ msgid "Save log to:"
 msgstr "儲存日誌到："
 
 #: src/AudacityLogger.cpp
-#, fuzzy, c-format
+#, c-format
 msgid "Couldn't save log to file: %s"
-msgstr "無法儲存日誌到檔案："
+msgstr "無法儲存日誌到檔案：%s"
 
 #: src/AudioIO.cpp
 msgid "Could not find any audio devices.\n"
@@ -1116,11 +1112,13 @@ msgid "Error Initializing Midi"
 msgstr "初始化 MIDI 時發生錯誤"
 
 #: src/AudioIO.cpp src/ProjectAudioManager.cpp
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Error opening recording device.\n"
 "Error code: %s"
-msgstr "開啟聲音裝置時發生錯誤。"
+msgstr ""
+"開啟錄音裝置時發生錯誤。\n"
+"錯誤代號：%s"
 
 #: src/AudioIO.cpp
 msgid "Out of memory!"
@@ -1176,49 +1174,48 @@ msgid "Stream is active ... unable to gather information.\n"
 msgstr ""
 
 #: src/AudioIOBase.cpp
-#, fuzzy, c-format
+#, c-format
 msgid "Default recording device number: %d\n"
-msgstr "選擇輸入裝置"
+msgstr "預設錄音裝置編號：%d\n"
 
 #: src/AudioIOBase.cpp
 #, c-format
 msgid "Default playback device number: %d\n"
-msgstr ""
+msgstr "預設播放裝置編號：%d\n"
 
 #: src/AudioIOBase.cpp
-#, fuzzy
 msgid "No devices found\n"
-msgstr "找不到裝置"
+msgstr "找不到裝置\n"
 
 #: src/AudioIOBase.cpp
-#, fuzzy, c-format
+#, c-format
 msgid "Device info unavailable for: %d\n"
-msgstr "裝置資訊不可用。"
+msgstr "裝置資訊不可用：%d\n"
 
 #: src/AudioIOBase.cpp
-#, fuzzy, c-format
+#, c-format
 msgid "Device ID: %d\n"
-msgstr "裝置"
+msgstr "裝置ID：%d\n"
 
 #: src/AudioIOBase.cpp
-#, fuzzy, c-format
+#, c-format
 msgid "Device name: %s\n"
-msgstr "裝置"
+msgstr "裝置名稱：%s\n"
 
 #: src/AudioIOBase.cpp
-#, fuzzy, c-format
+#, c-format
 msgid "Host name: %s\n"
-msgstr "名稱：%s"
+msgstr "主機名稱：%s\n"
 
 #: src/AudioIOBase.cpp
-#, fuzzy, c-format
+#, c-format
 msgid "Recording channels: %d\n"
-msgstr "錄製聲道"
+msgstr "錄製聲道：%d\n"
 
 #: src/AudioIOBase.cpp
-#, fuzzy, c-format
+#, c-format
 msgid "Playback channels: %d\n"
-msgstr "輸出音量：%%.2f%s"
+msgstr "輸出聲道：%d\n"
 
 #: src/AudioIOBase.cpp
 #, fuzzy, c-format
@@ -1445,55 +1442,46 @@ msgid "&Details"
 msgstr "詳細資訊  (&D)"
 
 #: src/BatchCommandDialog.cpp
-#, fuzzy
 msgid "Choose command"
-msgstr "選擇命令(&H)"
+msgstr "選擇命令"
 
 #: src/BatchCommands.cpp
-#, fuzzy
 msgid "No Action"
-msgstr "動作"
+msgstr "無動作"
 
 #. i18n-hint: before is adverb; MP3 names an audio file format
 #: src/BatchCommands.cpp
-#, fuzzy
 msgid "Export as MP3 56k before"
-msgstr "匯出為 MP&3"
+msgstr "匯出為 MP3 56k 之前"
 
 #. i18n-hint: after is adverb; MP3 names an audio file format
 #: src/BatchCommands.cpp
-#, fuzzy
 msgid "Export as MP3 56k after"
-msgstr "匯出為 MP&3"
+msgstr "匯出為 MP3 之後"
 
 #. i18n-hint: FLAC names an audio file format
 #: src/BatchCommands.cpp
-#, fuzzy
 msgid "Export as FLAC"
-msgstr "匯出為 &WAV"
+msgstr "匯出為 FLAC"
 
 #. i18n-hint: MP3 names an audio file format
 #: src/BatchCommands.cpp
-#, fuzzy
 msgid "Export as MP3"
-msgstr "匯出為 MP&3"
+msgstr "匯出為 MP3"
 
 #. i18n-hint: Ogg names an audio file format
 #: src/BatchCommands.cpp
-#, fuzzy
 msgid "Export as Ogg"
-msgstr "匯出為 &OGG"
+msgstr "匯出為 Ogg"
 
 #. i18n-hint: WAV names an audio file format
 #: src/BatchCommands.cpp
-#, fuzzy
 msgid "Export as WAV"
-msgstr "匯出為 &WAV"
+msgstr "匯出為 WAV"
 
 #: src/BatchCommands.cpp
-#, fuzzy
 msgid "MP3 Conversion"
-msgstr "實時轉換"
+msgstr "MP3 轉換"
 
 #: src/BatchCommands.cpp
 #, fuzzy
@@ -1506,9 +1494,8 @@ msgid "Select to Ends"
 msgstr "選擇到終點"
 
 #: src/BatchCommands.cpp
-#, fuzzy
 msgid "Special Command"
-msgstr "選擇命令"
+msgstr "特別命令"
 
 #: src/BatchCommands.cpp
 #, fuzzy
@@ -1516,13 +1503,12 @@ msgid "Effect"
 msgstr "效果"
 
 #: src/BatchCommands.cpp
-#, fuzzy
 msgid "Menu Command (With Parameters)"
-msgstr "編輯參數(&E)"
+msgstr "選單命令 (有參數)"
 
 #: src/BatchCommands.cpp
 msgid "Menu Command (No Parameters)"
-msgstr ""
+msgstr "選單命令 (無參數)"
 
 #: src/BatchCommands.cpp
 #, c-format
@@ -1538,12 +1524,12 @@ msgid "Export recording"
 msgstr "匯出錄音"
 
 #: src/BatchCommands.cpp
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Cannot create directory '%s'. \n"
 "File already exists that is not a directory"
 msgstr ""
-"無法建立目錄“已清理”。\n"
+"無法建立目錄“%s”。\n"
 "非目錄檔案已存在"
 
 #: src/BatchCommands.cpp
@@ -1613,44 +1599,38 @@ msgstr ""
 #. i18n-hint: A macro is a sequence of commands that can be applied
 #. * to one or more audio files.
 #: src/BatchProcessDialog.cpp
-#, fuzzy
 msgid "Select Macro"
-msgstr "選擇曲線"
+msgstr "選擇連鎖命令"
 
 #. i18n-hint: This is the heading for a column in the edit macros dialog
 #: src/BatchProcessDialog.cpp
 msgid "Macro"
-msgstr ""
+msgstr "連鎖命令"
 
 #: src/BatchProcessDialog.cpp
 msgid "Apply Macro to:"
-msgstr ""
+msgstr "套用連鎖命令至："
 
 #: src/BatchProcessDialog.cpp
-#, fuzzy
 msgid "&Project"
-msgstr "專案"
+msgstr "專案(&P)"
 
 #: src/BatchProcessDialog.cpp
-#, fuzzy
 msgid "Apply macro to project"
-msgstr "套用到目前專案(&P)"
+msgstr "套用連鎖命令到專案"
 
 #: src/BatchProcessDialog.cpp
-#, fuzzy
 msgid "&Files..."
-msgstr "檔案(&F)"
+msgstr "檔案(&F)..."
 
 #: src/BatchProcessDialog.cpp
-#, fuzzy
 msgid "Apply macro to files..."
-msgstr "套用到檔案(&F)..."
+msgstr "套用連鎖命令到檔案(&F)..."
 
 #. i18n-hint: The Expand button makes the dialog bigger, with more in it
 #: src/BatchProcessDialog.cpp
-#, fuzzy
 msgid "&Expand"
-msgstr "展開"
+msgstr "展開(&E)"
 
 #: src/BatchProcessDialog.cpp
 #, fuzzy
@@ -1688,14 +1668,12 @@ msgid "&Cancel"
 msgstr "取消(&C)"
 
 #: src/BatchProcessDialog.cpp
-#, fuzzy
 msgid "Manage Macros"
-msgstr "管理曲線"
+msgstr "管理連鎖命令"
 
 #: src/BatchProcessDialog.cpp
-#, fuzzy
 msgid "Remo&ve"
-msgstr "移除"
+msgstr "移除(&V)"
 
 #: src/BatchProcessDialog.cpp src/effects/Equalization.cpp
 msgid "&Rename..."
@@ -1704,7 +1682,7 @@ msgstr "重新命名(&R)..."
 #: src/BatchProcessDialog.cpp
 #, fuzzy
 msgid "Re&store"
-msgstr "還原區域(&N)"
+msgstr "還原區域(&S)"
 
 #: src/BatchProcessDialog.cpp src/LabelDialog.cpp src/effects/Equalization.cpp
 msgid "I&mport..."
@@ -2143,14 +2121,13 @@ msgid "Whenever a project depends on other files:"
 msgstr "當專案依存其它檔案時："
 
 #: src/Dependencies.cpp
-#, fuzzy, c-format
+#, c-format
 msgid "MISSING %s"
-msgstr "遺失"
+msgstr "遺失 %s"
 
 #: src/Dependencies.cpp
-#, fuzzy
 msgid "&Copy Names to Clipboard"
-msgstr "複製到剪貼簿"
+msgstr "複製名稱到剪貼簿(&C)"
 
 #: src/Dependencies.cpp
 msgid ""
@@ -2646,9 +2623,9 @@ msgstr "文字檔案 (*.txt)|*.txt|所有檔案|*"
 
 #: src/FreqWindow.cpp src/LabelDialog.cpp src/effects/Contrast.cpp
 #: src/menus/FileMenus.cpp
-#, fuzzy, c-format
+#, c-format
 msgid "Couldn't write to file: %s"
-msgstr "無法寫入到檔案："
+msgstr "無法寫入到檔案：%s"
 
 #: src/FreqWindow.cpp
 msgid "Frequency (Hz)\tLevel (dB)"
@@ -2740,13 +2717,12 @@ msgstr ""
 "<br><br>"
 
 #: src/HelpText.cpp
-#, fuzzy
 msgid ""
 "You can help us get Audacity ready for release by joining our [[https://www."
 "audacityteam.org/community/|community]].<hr><br><br>"
 msgstr ""
-"您可以透過加入我们的 [[http://www.audacityteam.org/community/|Audacity 社區]]"
-"來幫助我们讓 Audacity 变得更好。.<hr><br><br>"
+"您可以加入我們的[[https://www.audacityteam.org/community/|社群]]，"
+"來幫助我們令 Audacity 變得更好。<hr><br><br>"
 
 #: src/HelpText.cpp
 msgid "How to get help"
